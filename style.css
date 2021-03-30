@@ -16,7 +16,7 @@
 .header .more-inf {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
@@ -37,14 +37,14 @@
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list-item, .heading-block {
-  list-style:none;
+  list-style: none;
 }
 input, .btn {
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -143,14 +143,14 @@ input[type="text"]:focus {
 
 /* Edit Task */
 .list-item input[type=text] {
-  display:none
+  display: none
 }
 
 .list-item.edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list .edit-mode label.task {
-  display:none;
+  display: none;
 }
